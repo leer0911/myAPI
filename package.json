@@ -1,0 +1,28 @@
+{
+  "name": "myapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "serve": "serve --single docs/.vuepress/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leer0911/myAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leer0911/myAPI/issues"
+  },
+  "homepage": "https://github.com/leer0911/myAPI#readme",
+  "dependencies": {
+    "vuepress": "^0.14.8",
+    "vuepress-theme-api": "^0.2.1"
+  }
+}
